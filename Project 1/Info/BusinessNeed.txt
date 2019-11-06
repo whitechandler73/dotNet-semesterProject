@@ -1,5 +1,8 @@
-Business Need: Inventory management for a small computer store in Scranton, Penslyvania. We need a system to help manage our
+Business Need: Inventory management for a small computer store in Scranton, Pennslyvania. We need a system to help manage our
     inventory assests so that we know what we have in stock and what we need to order.
 
-Laptops: Stock #*, Product #, Brand, Model, OS, 
-Desktops: Stock #*, Product #, Brand, Model, OS, 
+Laptops: Stock #*, Product #, Brand, Model, OS, Ram, Processor, Price;
+Desktops: Stock #*, Product #, Brand, Model, OS, Ram, Processor, Tower Size, Price;
+PC Parts: Stock #*, Product #, Brand, Model, Part Type, Price;
+
+* - Primary Key
