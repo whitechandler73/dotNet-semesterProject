@@ -1,0 +1,10 @@
+C:\Users\mwhite39\Documents\Projects\MyProjects_USE\dotNet-semesterProject\Project 1\app\Cumpooter Inventory Management\Cumpooter Inventory Management\bin\Debug\InventoryManagement_CITC2312.accdb
+C:\Users\mwhite39\Documents\Projects\MyProjects_USE\dotNet-semesterProject\Project 1\app\Cumpooter Inventory Management\Cumpooter Inventory Management\bin\Debug\Cumpooter Inventory Management.exe.config
+C:\Users\mwhite39\Documents\Projects\MyProjects_USE\dotNet-semesterProject\Project 1\app\Cumpooter Inventory Management\Cumpooter Inventory Management\bin\Debug\Cumpooter Inventory Management.exe
+C:\Users\mwhite39\Documents\Projects\MyProjects_USE\dotNet-semesterProject\Project 1\app\Cumpooter Inventory Management\Cumpooter Inventory Management\bin\Debug\Cumpooter Inventory Management.pdb
+C:\Users\mwhite39\Documents\Projects\MyProjects_USE\dotNet-semesterProject\Project 1\app\Cumpooter Inventory Management\Cumpooter Inventory Management\obj\Debug\Cumpooter Inventory Management.csprojAssemblyReference.cache
+C:\Users\mwhite39\Documents\Projects\MyProjects_USE\dotNet-semesterProject\Project 1\app\Cumpooter Inventory Management\Cumpooter Inventory Management\obj\Debug\Cumpooter_Inventory_Management.Form1.resources
+C:\Users\mwhite39\Documents\Projects\MyProjects_USE\dotNet-semesterProject\Project 1\app\Cumpooter Inventory Management\Cumpooter Inventory Management\obj\Debug\Cumpooter_Inventory_Management.Properties.Resources.resources
+C:\Users\mwhite39\Documents\Projects\MyProjects_USE\dotNet-semesterProject\Project 1\app\Cumpooter Inventory Management\Cumpooter Inventory Management\obj\Debug\Cumpooter Inventory Management.csproj.GenerateResource.cache
+C:\Users\mwhite39\Documents\Projects\MyProjects_USE\dotNet-semesterProject\Project 1\app\Cumpooter Inventory Management\Cumpooter Inventory Management\obj\Debug\Cumpooter Inventory Management.exe
+C:\Users\mwhite39\Documents\Projects\MyProjects_USE\dotNet-semesterProject\Project 1\app\Cumpooter Inventory Management\Cumpooter Inventory Management\obj\Debug\Cumpooter Inventory Management.pdb
