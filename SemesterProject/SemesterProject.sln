@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "SemesterProject", "SemesterProject\SemesterProject.sqlproj", "{0BBC70F1-303C-4B87-A59B-7A6984B218EA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0BBC70F1-303C-4B87-A59B-7A6984B218EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BBC70F1-303C-4B87-A59B-7A6984B218EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BBC70F1-303C-4B87-A59B-7A6984B218EA}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{0BBC70F1-303C-4B87-A59B-7A6984B218EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BBC70F1-303C-4B87-A59B-7A6984B218EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BBC70F1-303C-4B87-A59B-7A6984B218EA}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
