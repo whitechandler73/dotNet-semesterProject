@@ -1,2 +1,3 @@
 C:\Users\Daniel\Desktop\SemesterProject\SemesterProject\bin\Debug\SemesterProject.exe.config
 C:\Users\Daniel\Desktop\dotNet-semesterProject\SemesterProject\SemesterProject\bin\Debug\SemesterProject.exe.config
+C:\Users\mwhite39\Documents\dotNet-semesterProject\SemesterProject\SemesterProject\bin\Debug\SemesterProject.exe.config
