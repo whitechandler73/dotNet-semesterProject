@@ -23,5 +23,10 @@ namespace SemesterProject
             this.categoriesTableAdapter.Fill(this.businessDatabaseDataSet.Categories);
 
         }
+
+        private void exitButton_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

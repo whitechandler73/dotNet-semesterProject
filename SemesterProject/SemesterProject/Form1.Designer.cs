@@ -44,6 +44,7 @@
             this.categoriesBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.categoriesTableAdapter = new SemesterProject.BusinessDatabaseDataSetTableAdapters.CategoriesTableAdapter();
             this.tableAdapterManager = new SemesterProject.BusinessDatabaseDataSetTableAdapters.TableAdapterManager();
+            this.exitButton = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer)).BeginInit();
             this.splitContainer.Panel1.SuspendLayout();
             this.splitContainer.SuspendLayout();
@@ -62,6 +63,7 @@
             // 
             // splitContainer.Panel1
             // 
+            this.splitContainer.Panel1.Controls.Add(this.exitButton);
             this.splitContainer.Panel1.Controls.Add(this.viewControlGroupBox);
             this.splitContainer.Size = new System.Drawing.Size(1105, 539);
             this.splitContainer.SplitterDistance = 319;
@@ -178,6 +180,16 @@
             this.tableAdapterManager.SuppliersTableAdapter = null;
             this.tableAdapterManager.UpdateOrder = SemesterProject.BusinessDatabaseDataSetTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete;
             // 
+            // exitButton
+            // 
+            this.exitButton.Location = new System.Drawing.Point(71, 376);
+            this.exitButton.Name = "exitButton";
+            this.exitButton.Size = new System.Drawing.Size(161, 101);
+            this.exitButton.TabIndex = 1;
+            this.exitButton.Text = "Exit";
+            this.exitButton.UseVisualStyleBackColor = true;
+            this.exitButton.Click += new System.EventHandler(this.exitButton_Click);
+            // 
             // mainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -222,6 +234,7 @@
         private System.Windows.Forms.BindingSource categoriesBindingSource;
         private BusinessDatabaseDataSetTableAdapters.CategoriesTableAdapter categoriesTableAdapter;
         private BusinessDatabaseDataSetTableAdapters.TableAdapterManager tableAdapterManager;
+        private System.Windows.Forms.Button exitButton;
     }
 }
 
