@@ -44,7 +44,7 @@
             this.categoriesBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.categoriesTableAdapter = new SemesterProject.BusinessDatabaseDataSetTableAdapters.CategoriesTableAdapter();
             this.tableAdapterManager = new SemesterProject.BusinessDatabaseDataSetTableAdapters.TableAdapterManager();
-            this.exitButton = new System.Windows.Forms.Button();
+            this.categoriesBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer)).BeginInit();
             this.splitContainer.Panel1.SuspendLayout();
             this.splitContainer.SuspendLayout();
@@ -53,6 +53,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.businessDatabaseDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.businessDatabaseDataSetBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.categoriesBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.categoriesBindingSource1)).BeginInit();
             this.SuspendLayout();
             // 
             // splitContainer
@@ -63,7 +64,6 @@
             // 
             // splitContainer.Panel1
             // 
-            this.splitContainer.Panel1.Controls.Add(this.exitButton);
             this.splitContainer.Panel1.Controls.Add(this.viewControlGroupBox);
             this.splitContainer.Size = new System.Drawing.Size(1105, 539);
             this.splitContainer.SplitterDistance = 319;
@@ -118,9 +118,10 @@
             this.viewControlGroupBox.Controls.Add(this.comboBoxPromptLabel);
             this.viewControlGroupBox.Location = new System.Drawing.Point(13, 28);
             this.viewControlGroupBox.Name = "viewControlGroupBox";
-            this.viewControlGroupBox.Size = new System.Drawing.Size(247, 186);
+            this.viewControlGroupBox.Size = new System.Drawing.Size(294, 128);
             this.viewControlGroupBox.TabIndex = 0;
             this.viewControlGroupBox.TabStop = false;
+            this.viewControlGroupBox.Text = "View Control";
             // 
             // comboBoxPromptLabel
             // 
@@ -147,6 +148,7 @@
             this.tableViewControlComboBox.Name = "tableViewControlComboBox";
             this.tableViewControlComboBox.Size = new System.Drawing.Size(197, 21);
             this.tableViewControlComboBox.TabIndex = 1;
+            this.tableViewControlComboBox.SelectedIndexChanged += new System.EventHandler(this.tableViewControlComboBox_SelectedIndexChanged);
             // 
             // businessDatabaseDataSet
             // 
@@ -180,15 +182,10 @@
             this.tableAdapterManager.SuppliersTableAdapter = null;
             this.tableAdapterManager.UpdateOrder = SemesterProject.BusinessDatabaseDataSetTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete;
             // 
-            // exitButton
+            // categoriesBindingSource1
             // 
-            this.exitButton.Location = new System.Drawing.Point(71, 376);
-            this.exitButton.Name = "exitButton";
-            this.exitButton.Size = new System.Drawing.Size(161, 101);
-            this.exitButton.TabIndex = 1;
-            this.exitButton.Text = "Exit";
-            this.exitButton.UseVisualStyleBackColor = true;
-            this.exitButton.Click += new System.EventHandler(this.exitButton_Click);
+            this.categoriesBindingSource1.DataMember = "Categories";
+            this.categoriesBindingSource1.DataSource = this.businessDatabaseDataSet;
             // 
             // mainForm
             // 
@@ -212,6 +209,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.businessDatabaseDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.businessDatabaseDataSetBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.categoriesBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.categoriesBindingSource1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -234,7 +232,7 @@
         private System.Windows.Forms.BindingSource categoriesBindingSource;
         private BusinessDatabaseDataSetTableAdapters.CategoriesTableAdapter categoriesTableAdapter;
         private BusinessDatabaseDataSetTableAdapters.TableAdapterManager tableAdapterManager;
-        private System.Windows.Forms.Button exitButton;
+        private System.Windows.Forms.BindingSource categoriesBindingSource1;
     }
 }
 

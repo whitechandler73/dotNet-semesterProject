@@ -28,5 +28,10 @@ namespace SemesterProject
         {
             this.Close();
         }
+
+        private void tableViewControlComboBox_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
