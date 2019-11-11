@@ -10,11 +10,18 @@ using System.Windows.Forms;
 
 namespace SemesterProject
 {
-    public partial class Form1 : Form
+    public partial class mainForm : Form
     {
-        public Form1()
+        public mainForm()
         {
             InitializeComponent();
+        }
+
+        private void mainForm_Load(object sender, EventArgs e)
+        {
+            // TODO: This line of code loads data into the 'businessDatabaseDataSet.Categories' table. You can move, or remove it, as needed.
+            this.categoriesTableAdapter.Fill(this.businessDatabaseDataSet.Categories);
+
         }
     }
 }

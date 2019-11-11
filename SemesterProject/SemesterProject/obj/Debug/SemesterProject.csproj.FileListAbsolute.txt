@@ -1,3 +1,13 @@
 C:\Users\Daniel\Desktop\SemesterProject\SemesterProject\bin\Debug\SemesterProject.exe.config
 C:\Users\Daniel\Desktop\dotNet-semesterProject\SemesterProject\SemesterProject\bin\Debug\SemesterProject.exe.config
 C:\Users\mwhite39\Documents\dotNet-semesterProject\SemesterProject\SemesterProject\bin\Debug\SemesterProject.exe.config
+C:\Users\mwhite39\Documents\dotNet-semesterProject\SemesterProject\SemesterProject\bin\Debug\BusinessDatabase.mdf
+C:\Users\mwhite39\Documents\dotNet-semesterProject\SemesterProject\SemesterProject\bin\Debug\BusinessDatabase_log.ldf
+C:\Users\mwhite39\Documents\dotNet-semesterProject\SemesterProject\SemesterProject\bin\Debug\SemesterProject.exe
+C:\Users\mwhite39\Documents\dotNet-semesterProject\SemesterProject\SemesterProject\bin\Debug\SemesterProject.pdb
+C:\Users\mwhite39\Documents\dotNet-semesterProject\SemesterProject\SemesterProject\obj\Debug\SemesterProject.csprojResolveAssemblyReference.cache
+C:\Users\mwhite39\Documents\dotNet-semesterProject\SemesterProject\SemesterProject\obj\Debug\SemesterProject.mainForm.resources
+C:\Users\mwhite39\Documents\dotNet-semesterProject\SemesterProject\SemesterProject\obj\Debug\SemesterProject.Properties.Resources.resources
+C:\Users\mwhite39\Documents\dotNet-semesterProject\SemesterProject\SemesterProject\obj\Debug\SemesterProject.csproj.GenerateResource.Cache
+C:\Users\mwhite39\Documents\dotNet-semesterProject\SemesterProject\SemesterProject\obj\Debug\SemesterProject.exe
+C:\Users\mwhite39\Documents\dotNet-semesterProject\SemesterProject\SemesterProject\obj\Debug\SemesterProject.pdb
